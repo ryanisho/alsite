@@ -2433,7 +2433,7 @@ label {
   opacity: 0;
   filter: contrast(210%) blur(110px);
   mix-blend-mode: normal;
-  background-image: linear-gradient(270deg, #f971ba, #5500be);
+  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
   border-radius: 100%;
   position: absolute;
   top: -910px;

@@ -2356,7 +2356,7 @@ label {
 .gradient {
   text-shadow: none;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(#fff, #ffb1da 21%, #ff5bb3 48%, #7100ff 77%, #000);
+  background-image: linear-gradient(#fff, #4486ff 21%, #182bff 48%, #3467ff 77%, #000);
   -webkit-background-clip: text;
   background-clip: text;
   box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
@@ -2445,7 +2445,7 @@ label {
   height: 150px;
   opacity: .05;
   filter: contrast(210%) blur(30px);
-  background-image: linear-gradient(151deg, #3169f5, #bca3cc 87%);
+  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
   top: 23%;
 }
 
@@ -2454,7 +2454,7 @@ label {
   height: 835px;
   opacity: .7;
   filter: contrast(210%) blur(130px);
-  background-image: linear-gradient(223deg, rgba(72, 49, 245, .7), rgba(249, 86, 255, .6));
+  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
   top: 10px;
 }
 
@@ -2550,7 +2550,7 @@ label {
   height: 32px;
   opacity: .06;
   filter: contrast(210%) blur(9px);
-  background-image: linear-gradient(#ff82e2, #ff82e2);
+  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
   border-radius: 10%;
   top: 13px;
   bottom: 0%;
@@ -2584,7 +2584,7 @@ label {
 .logogradientavatar {
   width: 90px;
   height: 90px;
-  background-image: linear-gradient(256deg, #ffc4e4, #d75fcc 37%, #6f00ff);
+  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
   border-radius: 200%;
   justify-content: center;
   align-items: center;
@@ -2700,7 +2700,7 @@ label {
 
 .sectionsmallheaders.gradient {
   color: #9d22db;
-  background-image: linear-gradient(to top, #fff, #ffb1da 21%, #ff5bb3 48%, #7100ff 77%, #000);
+  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
   margin-top: 0;
   margin-bottom: 0;
   font-size: .8em;
@@ -2861,7 +2861,7 @@ label {
   width: 50px;
   height: 50px;
   background-color: rgba(0, 0, 0, 0);
-  background-image: linear-gradient(147deg, #ffcae6, #f453b9 31%, #aa26e2 71%, #4d03ad);
+  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
   border: 1px #020202;
   border-radius: 120px;
   justify-content: center;
@@ -3033,7 +3033,8 @@ label {
   color: #fff;
   text-shadow: 0 2px rgba(0, 0, 0, .11);
   background-color: rgba(0, 0, 0, 0);
-  background-image: linear-gradient(#f3a7dd, #eb50e9 44%, #450399);
+  background-image: linear-gradient(#345ee8, #134cd0, #001475ce);
+  /* background-image: linear-gradient(#f3a7dd, #eb50e9 44%, #450399); */
   border: 1px #000;
   border-radius: 8px;
   padding: 16px 32px;
@@ -3053,7 +3054,7 @@ label {
 .primarybutton._100 {
   width: 100%;
   color: #fff;
-  background-image: linear-gradient(#f3a7dd, #eb50e9 44%, #450399);
+  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
   justify-content: center;
   display: none;
 }
@@ -3066,7 +3067,7 @@ label {
   width: 100%;
   box-shadow: none;
   color: #a0a0a0;
-  background-image: linear-gradient(#18191f, #18191f);
+  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
   border-style: solid;
   border-color: #313131;
   justify-content: center;
@@ -3423,12 +3424,12 @@ label {
   width: 100%;
   height: 1px;
   opacity: .8;
-  background-image: linear-gradient(270deg, rgba(255, 255, 255, 0), #5a3d96 54%, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
 }
 
 .line.poistionsmallboxes {
   z-index: 10;
-  background-image: linear-gradient(270deg, rgba(255, 255, 255, 0), #493c66 54%, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
   position: absolute;
   top: auto;
   bottom: 0%;
@@ -3437,7 +3438,7 @@ label {
 }
 
 .line.poistionsmallboxes.margin {
-  background-image: linear-gradient(270deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, .2) 54%, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
 }
 
 .line.opacity {
@@ -3525,7 +3526,7 @@ label {
   height: auto;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
-  background-image: linear-gradient(#110e18, #110e18);
+  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
   border: 1px solid #221e33;
   border-radius: 10px;
   flex-direction: column;
@@ -3555,7 +3556,7 @@ label {
 }
 
 .itemcontainer.services.trial-mode {
-  background-image: linear-gradient(#0b0d0f, #0b0d0f);
+  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
 }
 
 .itemcontainer.services.trial-mode.hide {
@@ -3563,7 +3564,7 @@ label {
 }
 
 .itemcontainer.services.hourly {
-  background-image: linear-gradient(#0e0c14, #0e0c14);
+  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
   border-color: #191524;
 }
 
@@ -3689,7 +3690,7 @@ label {
 .textgradient {
   -webkit-text-fill-color: transparent;
   object-fit: fill;
-  background-image: linear-gradient(#fff, #ff9bd0 52%, #8a00ff);
+  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
   -webkit-background-clip: text;
   background-clip: text;
   position: static;
@@ -4343,7 +4344,7 @@ label {
 .tabliner {
   width: 100%;
   height: 1px;
-  background-image: linear-gradient(270deg, rgba(17, 14, 24, 0) 11%, #735d94 46%, rgba(17, 14, 24, 0) 85%);
+  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
   position: absolute;
   top: 0%;
   bottom: auto;
@@ -4374,7 +4375,7 @@ label {
   width: 1px;
   height: 0%;
   object-fit: fill;
-  background-image: linear-gradient(rgba(12, 10, 15, 0) 10%, #f151bb 32%, #f368c4 100%, #f981ca);
+  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
   transition: all .2s;
   position: absolute;
   top: 0%;
@@ -4606,7 +4607,7 @@ label {
   }
 
   .bordergradienttop.bottom {
-    background-image: linear-gradient(270deg, #13171b 18%, #c13dd5 49%, #15171c 79%);
+    background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
     top: auto;
     bottom: 0%;
     left: 0%;

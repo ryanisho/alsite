@@ -234,7 +234,7 @@ body {
   color: #333;
   background-color: #fff;
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 14px;
   line-height: 20px;
 }
@@ -2099,7 +2099,7 @@ h2 {
   color: #fff;
   margin-top: 20px;
   margin-bottom: 10px;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 2em;
   font-weight: 700;
   line-height: 36px;
@@ -2109,7 +2109,7 @@ h3 {
   color: #fff;
   margin-top: 20px;
   margin-bottom: 10px;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.5em;
   font-weight: 700;
   line-height: 30px;
@@ -2119,7 +2119,7 @@ h4 {
   color: #fff;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
@@ -2128,7 +2128,7 @@ h4 {
 p {
   color: #939499;
   margin-bottom: 10px;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1em;
   line-height: 1.4em;
 }
@@ -2141,7 +2141,7 @@ a {
 label {
   color: #c4c6cc;
   margin-bottom: 5px;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: .8em;
   font-weight: 500;
   display: block;
@@ -2297,7 +2297,7 @@ label {
   color: #fff;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.5em;
   font-weight: 700;
   line-height: 1.5em;
@@ -2311,7 +2311,7 @@ label {
 .smalllogotext {
   color: #828282;
   margin-bottom: 0;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 14px;
 }
 
@@ -2326,7 +2326,7 @@ label {
   align-items: center;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 4.5em;
   font-weight: 900;
   line-height: 1.1em;
@@ -2356,7 +2356,9 @@ label {
 .gradient {
   text-shadow: none;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(#fff, #4486ff 21%, #182bff 48%, #3467ff 77%, #000);
+  /* background-image: linear-gradient(270deg, #EDECE9, #000628); */
+  /* background-image: linear-gradient(270deg,#fff, #000628,#EDECE9, #000); */
+  background-color: #EDECE9;
   -webkit-background-clip: text;
   background-clip: text;
   box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
@@ -2371,7 +2373,7 @@ label {
   color: #939499;
   text-align: center;
   margin-bottom: 0;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1em;
   font-weight: 400;
   line-height: 1.5em;
@@ -2433,7 +2435,7 @@ label {
   opacity: 0;
   filter: contrast(210%) blur(110px);
   mix-blend-mode: normal;
-  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
+  background-image: linear-gradient(270deg, #EDECE9, #000628);
   border-radius: 100%;
   position: absolute;
   top: -910px;
@@ -2445,7 +2447,7 @@ label {
   height: 150px;
   opacity: .05;
   filter: contrast(210%) blur(30px);
-  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
+  background-image: linear-gradient(270deg, #EDECE9, #000628);
   top: 23%;
 }
 
@@ -2454,7 +2456,7 @@ label {
   height: 835px;
   opacity: .7;
   filter: contrast(210%) blur(130px);
-  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
+  background-image: linear-gradient(270deg, #EDECE9, #000628);
   top: 10px;
 }
 
@@ -2530,7 +2532,7 @@ label {
   height: 80px;
   opacity: .09;
   filter: contrast(210%) blur(40px);
-  background-image: linear-gradient(270deg, #fff, #fff);
+  background-image: linear-gradient(270deg, #EDECE9, #000628);
   position: absolute;
   top: 0%;
   bottom: 0%;
@@ -2550,7 +2552,7 @@ label {
   height: 32px;
   opacity: .06;
   filter: contrast(210%) blur(9px);
-  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
+  background-image: linear-gradient(270deg, #EDECE9, #000628);
   border-radius: 10%;
   top: 13px;
   bottom: 0%;
@@ -2584,7 +2586,7 @@ label {
 .logogradientavatar {
   width: 90px;
   height: 90px;
-  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
+  background-image: linear-gradient(270deg, #EDECE9, #000628);
   border-radius: 200%;
   justify-content: center;
   align-items: center;
@@ -2638,7 +2640,7 @@ label {
 
 .upstext {
   color: #929199;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: .9em;
   font-weight: 400;
   line-height: 1.5em;
@@ -2692,7 +2694,7 @@ label {
   letter-spacing: 4px;
   text-transform: uppercase;
   margin-bottom: 0;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: .7em;
   font-weight: 500;
   line-height: 1.5em;
@@ -2700,7 +2702,7 @@ label {
 
 .sectionsmallheaders.gradient {
   color: #9d22db;
-  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
+  background-image: linear-gradient(270deg, #EDECE9, #000628);
   margin-top: 0;
   margin-bottom: 0;
   font-size: .8em;
@@ -2793,7 +2795,7 @@ label {
   color: #fff;
   letter-spacing: -1px;
   margin-top: 0;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 3em;
   line-height: 64px;
 }
@@ -2824,7 +2826,7 @@ label {
   width: 1px;
   height: 60px;
   background-color: #23262e;
-  background-image: linear-gradient(to top, #23262e 33%, #0c0c0c);
+  background-image: linear-gradient(270deg, #EDECE9, #000628);
 }
 
 .linegradientstart.plain {
@@ -2843,7 +2845,7 @@ label {
 
 .linegradientstart.last {
   height: 30px;
-  background-image: linear-gradient(#23262e 33%, #0c0c0c);
+  background-image: linear-gradient(270deg, #EDECE9, #000628);
 }
 
 .containeritem {
@@ -2861,7 +2863,7 @@ label {
   width: 50px;
   height: 50px;
   background-color: rgba(0, 0, 0, 0);
-  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
+  background-image: linear-gradient(180deg, #EDECE9, #000628);
   border: 1px #020202;
   border-radius: 120px;
   justify-content: center;
@@ -2876,7 +2878,7 @@ label {
 
 .numberinsidegradient {
   color: #fff;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 24px;
   font-weight: 500;
 }
@@ -2995,7 +2997,7 @@ label {
   color: #dddee5;
   background-color: rgba(0, 0, 0, 0);
   padding: 8px 16px;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1em;
   font-weight: 500;
   text-decoration: none;
@@ -3033,12 +3035,12 @@ label {
   color: #fff;
   text-shadow: 0 2px rgba(0, 0, 0, .11);
   background-color: rgba(0, 0, 0, 0);
-  background-image: linear-gradient(#345ee8, #134cd0, #001475ce);
+  background-image: linear-gradient(270deg, #EDECE9, #000628);
   /* background-image: linear-gradient(#f3a7dd, #eb50e9 44%, #450399); */
   border: 1px #000;
   border-radius: 8px;
   padding: 16px 32px;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1em;
   font-weight: 500;
   transition: all .2s;
@@ -3054,7 +3056,7 @@ label {
 .primarybutton._100 {
   width: 100%;
   color: #fff;
-  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
+  background-image: linear-gradient(270deg, #EDECE9, #000628);
   justify-content: center;
   display: none;
 }
@@ -3067,7 +3069,7 @@ label {
   width: 100%;
   box-shadow: none;
   color: #a0a0a0;
-  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
+  background-image: linear-gradient(270deg, #EDECE9, #000628);
   border-style: solid;
   border-color: #313131;
   justify-content: center;
@@ -3090,7 +3092,7 @@ label {
   border: 1px solid #242424;
   border-radius: 8px;
   padding: 16px 24px;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1em;
   font-weight: 500;
   transition: all .2s;
@@ -3243,7 +3245,7 @@ label {
 .projecttitle {
   color: #c5c7cc;
   margin-top: 0;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.5em;
   font-weight: 500;
 }
@@ -3264,7 +3266,7 @@ label {
   text-align: center;
   background-color: #130e1a;
   border: 1px #0f0326;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1em;
 }
 
@@ -3394,7 +3396,7 @@ label {
   color: #a088c2;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: .7em;
   font-weight: 500;
 }
@@ -3424,12 +3426,12 @@ label {
   width: 100%;
   height: 1px;
   opacity: .8;
-  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
+  background-image: linear-gradient(270deg, #EDECE9, #000628);
 }
 
 .line.poistionsmallboxes {
   z-index: 10;
-  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
+  background-image: linear-gradient(270deg, #EDECE9, #000628);
   position: absolute;
   top: auto;
   bottom: 0%;
@@ -3438,7 +3440,7 @@ label {
 }
 
 .line.poistionsmallboxes.margin {
-  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
+  background-image: linear-gradient(270deg, #EDECE9, #000628);
 }
 
 .line.opacity {
@@ -3489,7 +3491,7 @@ label {
   color: #c4c6cc;
   text-align: left;
   margin-bottom: 0;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1em;
   line-height: 1.5em;
   position: relative;
@@ -3526,7 +3528,7 @@ label {
   height: auto;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
-  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
+  background-image: linear-gradient(270deg, #EDECE9, #000628);
   border: 1px solid #221e33;
   border-radius: 10px;
   flex-direction: column;
@@ -3556,7 +3558,7 @@ label {
 }
 
 .itemcontainer.services.trial-mode {
-  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
+  background-image: linear-gradient(270deg, #EDECE9, #000628);
 }
 
 .itemcontainer.services.trial-mode.hide {
@@ -3564,7 +3566,7 @@ label {
 }
 
 .itemcontainer.services.hourly {
-  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
+  background-image: linear-gradient(270deg, #EDECE9, #000628);
   border-color: #191524;
 }
 
@@ -3690,7 +3692,7 @@ label {
 .textgradient {
   -webkit-text-fill-color: transparent;
   object-fit: fill;
-  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
+  background-image: linear-gradient(270deg, #EDECE9, #000628);
   -webkit-background-clip: text;
   background-clip: text;
   position: static;
@@ -3706,7 +3708,7 @@ label {
 
 .price {
   color: #fff;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 3em;
   font-weight: 700;
   line-height: 1.5em;
@@ -3983,7 +3985,7 @@ label {
 .cpacity {
   color: #c8f;
   -webkit-text-stroke-color: #fff;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .cpacity.hide {
@@ -3992,7 +3994,7 @@ label {
 
 .capacityleft {
   color: #aaff81;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
 }
 
@@ -4055,14 +4057,14 @@ label {
 
 .text-block {
   color: #aaa;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1em;
 }
 
 .toptextnotiofation {
   opacity: .7;
   color: #fff;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1em;
 }
 
@@ -4191,20 +4193,20 @@ label {
 
 .text-field:focus {
   color: #e6e6e6;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
 }
 
 .text-field::-ms-input-placeholder {
   color: #c4c6cc;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1em;
   font-weight: 500;
 }
 
 .text-field::placeholder {
   color: #c4c6cc;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1em;
   font-weight: 500;
 }
@@ -4223,7 +4225,7 @@ label {
 
 .submissionmessage {
   color: #aaff81;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .link-2 {
@@ -4249,7 +4251,7 @@ label {
   align-self: center;
   align-items: center;
   padding: 16px;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: .9em;
   font-weight: 500;
   transition: all .2s;
@@ -4281,7 +4283,7 @@ label {
 
 .currenttablink {
   color: #c3c2cc;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
 }
 
@@ -4344,7 +4346,7 @@ label {
 .tabliner {
   width: 100%;
   height: 1px;
-  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
+  background-image: linear-gradient(270deg, #EDECE9, #000628);
   position: absolute;
   top: 0%;
   bottom: auto;
@@ -4375,7 +4377,7 @@ label {
   width: 1px;
   height: 0%;
   object-fit: fill;
-  background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
+  background-image: linear-gradient(270deg, #EDECE9, #000628);
   transition: all .2s;
   position: absolute;
   top: 0%;
@@ -4420,7 +4422,7 @@ label {
   border: 1px solid #313131;
   border-radius: 8px;
   padding: 12px 24px;
-  font-family: Satoshi, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
   text-decoration: none;
   position: relative;
@@ -4508,7 +4510,7 @@ label {
   .heading-2 {
     max-width: 70%;
     letter-spacing: -1px;
-    font-family: Satoshi, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 900;
   }
 
@@ -4607,7 +4609,7 @@ label {
   }
 
   .bordergradienttop.bottom {
-    background-image: linear-gradient(270deg, #4e7ff9, #001475ce);
+    background-image: linear-gradient(270deg, #EDECE9, #000628);
     top: auto;
     bottom: 0%;
     left: 0%;
@@ -5241,7 +5243,7 @@ label {
     width: 100%;
     align-items: center;
     margin-bottom: 1em;
-    font-family: Satoshi, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1em;
   }
 
@@ -5625,33 +5627,4 @@ label {
   .slidercontainer {
     flex-direction: column;
   }
-}
-
-@font-face {
-  font-family: 'Satoshi';
-  src: url('https://uploads-ssl.webflow.com/642c22cbffd9a014d7e28bda/642c65ec8050f740ba125879_Satoshi-Medium.otf') format('opentype');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Satoshi';
-  src: url('https://uploads-ssl.webflow.com/642c22cbffd9a014d7e28bda/642c65ed2c1f250bae138bdd_Satoshi-Regular.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Satoshi';
-  src: url('https://uploads-ssl.webflow.com/642c22cbffd9a014d7e28bda/642c65ed7ce7f2ae509e23fd_Satoshi-Black.otf') format('opentype');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Satoshi';
-  src: url('https://uploads-ssl.webflow.com/642c22cbffd9a014d7e28bda/642c65ec54ffec93c86cf62a_Satoshi-Bold.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
 }

@@ -4118,6 +4118,13 @@ label {
   display: flex;
 }
 
+.portfolioitemtext {
+  width: 460px;
+  height: auto;
+  padding: .5em;
+  margin-left: 18%;
+}
+
 .portfolioitemwrapper {
   width: 100%;
   height: auto;

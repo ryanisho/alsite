@@ -11617,7 +11617,7 @@ Webflow.require('ix2').init({
                               "useEventTarget": true,
                               "id": "642c22cbffd9a0fb34e28bdb|cascade"
                           },
-                          "xValue": 18,
+                          "xValue": -28,
                           "xUnit": "%",
                           "yUnit": "PX",
                           "zUnit": "PX"
@@ -11636,7 +11636,7 @@ Webflow.require('ix2').init({
                               "useEventTarget": true,
                               "id": "642c22cbffd9a0fb34e28bdb|cascade"
                           },
-                          "xValue": -18,
+                          "xValue": 28,
                           "xUnit": "%",
                           "yUnit": "PX",
                           "zUnit": "PX"
@@ -11666,7 +11666,7 @@ Webflow.require('ix2').init({
                             "useEventTarget": true,
                             "id": "642c22cbffd9a0fb34e28bdb|cascade2"
                         },
-                        "xValue": -18,
+                        "xValue": 50,
                         "xUnit": "%",
                         "yUnit": "PX",
                         "zUnit": "PX"
@@ -11685,7 +11685,7 @@ Webflow.require('ix2').init({
                             "useEventTarget": true,
                             "id": "642c22cbffd9a0fb34e28bdb|cascade2"
                         },
-                        "xValue": 18,
+                        "xValue": -50,
                         "xUnit": "%",
                         "yUnit": "PX",
                         "zUnit": "PX"

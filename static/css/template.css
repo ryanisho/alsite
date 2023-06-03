@@ -276,7 +276,7 @@ html.w-mod-touch * {
   color: #fff;
   line-height: inherit;
   cursor: pointer;
-  background-color: #3898ec;
+  background-color: #50535A;
   border: 0;
   border-radius: 0;
   padding: 9px 15px;
@@ -3034,9 +3034,7 @@ label {
 .primarybutton {
   color: #fff;
   text-shadow: 0 2px rgba(0, 0, 0, .11);
-  background-color: rgba(0, 0, 0, 0);
-  background-image: linear-gradient(270deg, #EDECE9, #000628);
-  /* background-image: linear-gradient(#f3a7dd, #eb50e9 44%, #450399); */
+  background-image: grey;
   border: 1px #000;
   border-radius: 8px;
   padding: 16px 32px;

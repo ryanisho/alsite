@@ -939,3 +939,11 @@
      -ms-flex: 1 1 auto;
      flex: 1 1 auto;
 }
+
+.blogpost {
+    justify-content: flex;
+    text-align: left; 
+    padding-left: 40px; 
+    padding-right: 40px;
+    
+}
